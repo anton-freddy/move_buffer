@@ -1,0 +1,30 @@
+{
+    "name": "Move Buffer",
+    "version": "1.0.0",
+    "description": "This library is used to create a move buffer for queuing moves",
+    "keywords": "Linked List, Queue, Move List",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anton-freddy/move_buffer.git"
+    },
+    "authors": [
+        {
+            "name": "Anton Andres",
+            "email": "anton.andres@outlook.com",
+            "url": "https://github.com/anton-freddy/move_buffer"
+        },
+        {
+            "name": "Anton Andres",
+            "email": "anton.andres@outlook.com",
+            "url": "https://github.com/anton-freddy/move_buffer",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/anton-freddy/move_buffer",
+    "dependencies": {
+        "ownername/print": "~1.3.0"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32, espressif8266, atmelavr, ststm32"
+}
