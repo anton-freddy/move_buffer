@@ -1,7 +1,7 @@
 {
     "name": "Move Buffer",
-    "version": "1.1.0",
-    "description": "This library is used to create a move buffer for queuing moves. A more memory efficinet alternative to arrays",
+    "version": "1.1.1",
+    "description": "This library is used to create a move buffer for queuing moves. A more memory efficient alternative to arrays",
     "keywords": "Linked List, Queue, Move List, Move Buffer, Buffer, Dynamic Buffer",
     "repository": {
         "type": "git",
@@ -26,7 +26,8 @@
     "export":{
         "exclude":[
             "platformio.ini",
-            "src/main.cpp"
+            "src/main.cpp",
+            "library.properties"
         ] 
     },
     "frameworks": "arduino",

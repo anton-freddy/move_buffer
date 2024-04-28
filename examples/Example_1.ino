@@ -2,7 +2,6 @@
 
 MoveBuffer MoveList;
 
-FILE gcode;
 
 
 void setup()
@@ -12,7 +11,7 @@ void setup()
     MoveList.clearMoves(); // Clear the whole buffer
 
     // Add moves to end of list
-    MoveList.enqueueMove(100, 200, 300); // Enrty 1
+    MoveList.enqueueMove(100, 200, 300); // Entry 1
     MoveList.enqueueMove(500, 300, 20);  // Entry 2
     MoveList.enqueueMove(0, 20, 50);     // Entry 3
 
@@ -24,7 +23,7 @@ void setup()
 
 
     // Delete move at index
-    // This deletes the move that was just added before and reorgansies the index
+    // This deletes the move that was just added before and reorganises the index
     // so now the entry at index 3 becomes the new index 2 entry and so on...
     MoveList.deleteMoveByIndex(2);
 
@@ -45,7 +44,7 @@ void setup()
     Serial.println("X value: " + (String)temp_x);
     Serial.println("Y value: " + (String)temp_y);
     Serial.println("Z value: " + (String)temp_z);
-    // Remember, teh index numbers will change everytime a move is added or deleted
+    // Remember, teh index numbers will change every time a move is added or deleted
     // The top move will always be index 1 and counting upwards from there
     Serial.println("END OF SETUP");
 }
@@ -54,7 +53,7 @@ void loop()
 {
     if (!MoveList.isEmpty())
     {
-        // Gets next move into the temp values and deltes it from the buffer
+        // Gets next move into the temp values and deletes it from the buffer
         float temp_x, temp_y, temp_z;
         MoveList.getNextMove(temp_x, temp_y, temp_z);
         Serial.println("X value: " + (String)temp_x);
@@ -70,4 +69,3 @@ void loop()
     delay(1000);
 }
 
-//  OUTPUT SHOULD SHOW

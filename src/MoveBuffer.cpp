@@ -217,7 +217,7 @@ void MoveBuffer::insertMoveBeforeIndex(int index, float x, float y, float z)
 
 /*******************************************************
   Method: Add data entry before selected index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out:
 *******************************************************/
 void MoveBuffer::insertMoveBeforeIndex(int index, float x, float y)
@@ -255,7 +255,7 @@ void MoveBuffer::insertMoveBeforeIndex(int index, float x, float y)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer::peekNextMove(float &x, float &y, float &z)
@@ -275,7 +275,7 @@ bool MoveBuffer::peekNextMove(float &x, float &y, float &z)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer::peekNextMove(float &x, float &y)
@@ -293,7 +293,7 @@ bool MoveBuffer::peekNextMove(float &x, float &y)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y z varibles to store requested move in
+  In: x y z variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer::getNextMove(float &x, float &y, float &z)
@@ -316,7 +316,7 @@ bool MoveBuffer::getNextMove(float &x, float &y, float &z)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y varibles to store requested move in
+  In: x y variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer::getNextMove(float &x, float &y)
@@ -338,7 +338,7 @@ bool MoveBuffer::getNextMove(float &x, float &y)
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer::peekMoveByIndex(int index, float &x, float &y, float &z)
@@ -365,7 +365,7 @@ bool MoveBuffer::peekMoveByIndex(int index, float &x, float &y, float &z)
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer::peekMoveByIndex(int index, float &x, float &y)
@@ -391,7 +391,7 @@ bool MoveBuffer::peekMoveByIndex(int index, float &x, float &y)
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer::getNextMoveByIndex(int index, float &x, float &y, float &z)
@@ -438,7 +438,7 @@ bool MoveBuffer::getNextMoveByIndex(int index, float &x, float &y, float &z)
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer::getNextMoveByIndex(int index, float &x, float &y)
@@ -717,7 +717,7 @@ void MoveBuffer_double::insertMoveBeforeIndex(int index, double x, double y, dou
 
 /*******************************************************
   Method: Add data entry before selected index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out:
 *******************************************************/
 void MoveBuffer_double::insertMoveBeforeIndex(int index, double x, double y)
@@ -755,7 +755,7 @@ void MoveBuffer_double::insertMoveBeforeIndex(int index, double x, double y)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer_double::peekNextMove(double &x, double &y, double &z)
@@ -775,7 +775,7 @@ bool MoveBuffer_double::peekNextMove(double &x, double &y, double &z)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer_double::peekNextMove(double &x, double &y)
@@ -793,7 +793,7 @@ bool MoveBuffer_double::peekNextMove(double &x, double &y)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y z varibles to store requested move in
+  In: x y z variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer_double::getNextMove(double &x, double &y, double &z)
@@ -816,7 +816,7 @@ bool MoveBuffer_double::getNextMove(double &x, double &y, double &z)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y varibles to store requested move in
+  In: x y variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer_double::getNextMove(double &x, double &y)
@@ -838,7 +838,7 @@ bool MoveBuffer_double::getNextMove(double &x, double &y)
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_double::peekMoveByIndex(int index, double &x, double &y, double &z)
@@ -865,7 +865,7 @@ bool MoveBuffer_double::peekMoveByIndex(int index, double &x, double &y, double 
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_double::peekMoveByIndex(int index, double &x, double &y)
@@ -891,7 +891,7 @@ bool MoveBuffer_double::peekMoveByIndex(int index, double &x, double &y)
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_double::getNextMoveByIndex(int index, double &x, double &y, double &z)
@@ -938,7 +938,7 @@ bool MoveBuffer_double::getNextMoveByIndex(int index, double &x, double &y, doub
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_double::getNextMoveByIndex(int index, double &x, double &y)
@@ -1217,7 +1217,7 @@ void MoveBuffer_long::insertMoveBeforeIndex(int index, long x, long y, long z)
 
 /*******************************************************
   Method: Add data entry before selected index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out:
 *******************************************************/
 void MoveBuffer_long::insertMoveBeforeIndex(int index, long x, long y)
@@ -1255,7 +1255,7 @@ void MoveBuffer_long::insertMoveBeforeIndex(int index, long x, long y)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer_long::peekNextMove(long &x, long &y, long &z)
@@ -1275,7 +1275,7 @@ bool MoveBuffer_long::peekNextMove(long &x, long &y, long &z)
 
 /*******************************************************
   Method: Extract move data for next move but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty
 *******************************************************/
 bool MoveBuffer_long::peekNextMove(long &x, long &y)
@@ -1293,7 +1293,7 @@ bool MoveBuffer_long::peekNextMove(long &x, long &y)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y z varibles to store requested move in
+  In: x y z variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer_long::getNextMove(long &x, long &y, long &z)
@@ -1316,7 +1316,7 @@ bool MoveBuffer_long::getNextMove(long &x, long &y, long &z)
 
 /*******************************************************
   Method: Gets next move from queue and deletes move from queue afterwards
-  In: x y varibles to store requested move in
+  In: x y variables to store requested move in
   Out: Returns true if buffer/queue is empty
 *******************************************************/
 bool MoveBuffer_long::getNextMove(long &x, long &y)
@@ -1338,7 +1338,7 @@ bool MoveBuffer_long::getNextMove(long &x, long &y)
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_long::peekMoveByIndex(int index, long &x, long &y, long &z)
@@ -1365,7 +1365,7 @@ bool MoveBuffer_long::peekMoveByIndex(int index, long &x, long &y, long &z)
 
 /*******************************************************
   Method: Extract move data by index but DOES NOT DELETE ENTRY
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_long::peekMoveByIndex(int index, long &x, long &y)
@@ -1391,7 +1391,7 @@ bool MoveBuffer_long::peekMoveByIndex(int index, long &x, long &y)
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y z variables to store extarcted data
+  In: index and x y z variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_long::getNextMoveByIndex(int index, long &x, long &y, long &z)
@@ -1438,7 +1438,7 @@ bool MoveBuffer_long::getNextMoveByIndex(int index, long &x, long &y, long &z)
 
 /*******************************************************
   Method: Extract move data by index and delete move at index
-  In: index and x y variables to store extarcted data
+  In: index and x y variables to store extracted data
   Out: returns false if buffer is empty or index is out of range
 *******************************************************/
 bool MoveBuffer_long::getNextMoveByIndex(int index, long &x, long &y)
